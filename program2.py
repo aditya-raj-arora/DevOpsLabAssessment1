@@ -4,13 +4,13 @@ class Record():
         self.hours=hours
         self.affect=affect
     def printBill(self):
-        print("="*43)
-        print(f"{'Outage Records for '+self.region:^43}")
-        print("-"*43)
-        print(f"{'Hours':<20} | {'Affected People':<20}")
-        print("-"*43)
-        print(f"{self.hours:<20} | {self.affect:<20}")
-        print("="*43)
+        print("="*44)
+        print(f"{'Outage Records for '+self.region:^44}")
+        print("-"*44)
+        print(f"{'Hours':<20} || {'Affected People':<20}")
+        print("-"*44)
+        print(f"{self.hours:<20} || {self.affect:<20}")
+        print("="*44)
 def main():
     inputs=[
         ["Region A", 5, 6000],
